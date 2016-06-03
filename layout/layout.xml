@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document>
+	<mscreen>
+		<configuration device="HD" id="config1" name="common"
+			orientation="portrait" type="common" />
+	</mscreen>
+	<views startup="view1">
+		<view id="view1" indicator="true" screen_orientation="full_sensor"
+			type="view">
+			<grid align_h="fill" vsize_w="1000" align_v="fill" visible="true"
+				weight_v="1" id="grid0" weight_h="1" vsize_h="1000">
+				<bg align_v="fill" visible="true" color="" src="" weight_v="1"
+					pack_h="1000" weight_h="1" align_h="fill" pack_w="1000" pack_x="0"
+					pack_y="0" id="bg0" option="scale"></bg>
+				<button align_v="fill" visible="true" weight_v="1" pack_h="183"
+					weight_h="1" align_h="fill" pack_w="414" disable="false" pack_x="70"
+					pack_y="777" style="default" id="button0" text="Button"></button>
+				<button align_v="fill" visible="true" weight_v="1" pack_h="183"
+					weight_h="1" align_h="fill" pack_w="414" disable="false" pack_x="521"
+					pack_y="775" style="default" id="button1" text="Button"></button>
+				<progressbar align_v="fill" visible="true" weight_v="1"
+					pack_h="76" weight_h="1" align_h="fill" span_size="0" pack_w="864"
+					disable="false" pack_x="72" pack_y="654" style="default" id="progressbar0"
+					inverted="false" value="0.5" direction="horizontal"></progressbar>
+				<label align_v="fill" visible="true" weight_v="1" line_wrap="none"
+					pack_h="24" weight_h="1" ellipsis="false" align_h="fill"
+					wrap_width="0" pack_w="139" disable="false" pack_x="286" pack_y="223"
+					id="label0" text="Label"></label>
+				<image resizable_up="true" resizable_down="true" align_v="fill"
+					visible="true" src="tmelm.png" weight_v="1" pack_h="81" weight_h="1"
+					align_h="fill" aspect_fixed="false" pack_w="1001" pack_x="0"
+					pack_y="-1" no_scale="false" id="image0" fill_outside="false"></image>
+			</grid>
+		</view>
+	</views>
+</document>
